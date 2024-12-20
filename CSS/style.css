@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif; /* Визначає шрифт тексту */
+    margin: 0; /* Відступи по краях сторінки */
+    padding: 0; /* Внутрішні відступи */
+    line-height: 1.6; /* Висота рядків */
+    background-color: #f4f4f4; /* Колір фону */
+    color: #333; /* Основний колір тексту */
+}
+h1, h2 {
+    text-align: center; /* Вирівнювання тексту по центру */
+    margin-bottom: 10px; /* Відступ знизу */
+}
+h1{
+    font-size: 2.5em; /* Розмір шрифту заголовка H1 */
+    color: #222; /* Темніший колір */
+}
+h2{
+    font-size: 1.8em; /* Розмір шрифту заголовка H2 */
+    color: #555; /* Світліший колір */
+}
+ul{
+    list-style: none; /* Прибираємо маркери списку */
+    padding: 0; /* Внутрішні відступи */
+    margin: 20 px auto; /* Відступи та вирівнювання */
+    max-width: 400px; /* Максимальна ширина */
+}
+ul li{
+    margin-bottom: 10px; /* Відступ між пунктами списку */
+}
+ul a{
+    color: #007bff; /* Колір посилань */
+    text-decoration: none; /* Забираємо підкреслення */
+}
+ul a:hover {
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+.portfolio-photo {
+    display: block; /* Додає блоковий рівень */
+    margin: 20px auto; /* Вирівнювання по центру */
+    border-radius: 5%; /* Округлює краї */
+    border: 5px solid #ccc; /* Обрамлення */
+}
+.social-links {
+    text-align: center; /* Центрування тексту */
+    margin: 20px 0; /* Відступи зверху і знизу */
+}
+.social-links a {
+    margin: 0 10px; /* Відступ між посиланнями */
+    color: #007bff; /* Колір посилання */
+    text-decoration: none; /* Забираємо підкреслення */
+    font-weight: bold; /* Жирний шрифт */
+}
+.social-links a:hover {
+    color: #0056b3; /* Темніший колір при наведенні */
+}
+footer {
+    text-align: center; /* Центрування тексту */
+    background: #333;  /* Темний фон */
+    color: #fff; /* Світлий текст */
+    padding: 10px 0; /* Відступи зверху і знизу */
+    margin-top: 20px; /* Відступ зверху */
+}
